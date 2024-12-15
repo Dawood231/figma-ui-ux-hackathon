@@ -1,4 +1,9 @@
+// styles
+import "./globals.css";
+import Link from "next/link";
 import Image from "next/image";
+
+
 import logo from "./images/Foodtuck.png";
 
 // icons
@@ -26,9 +31,6 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaYoutubeSquare } from "react-icons/fa";
 
-// styles
-import "./globals.css";
-import Link from "next/link";
 
 export default function Home() {
   return (
